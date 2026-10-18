@@ -12,5 +12,6 @@ for (int i = 0; i < n; i++)
     int temp = a + b;
     a = b;
     b = temp;
+    Console.WriteLine($"Fibonacci number {i + 1}: {a}");
 }
 Console.WriteLine();
