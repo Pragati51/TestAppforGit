@@ -2,7 +2,7 @@
 Console.WriteLine("Hello, World!");
 
 // Generate and print the first 10 Fibonacci numbers
-int n = 10;
+int n = 50;
 int a = 0, b = 1;
 
 Console.WriteLine("Fibonacci Series:");
@@ -12,5 +12,8 @@ for (int i = 0; i < n; i++)
     int temp = a + b;
     a = b;
     b = temp;
+    Console.WriteLine($"Fibonacci number {i + 1}: {a}");
+    //test
+    //test2
 }
 Console.WriteLine();
