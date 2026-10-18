@@ -15,5 +15,7 @@ for (int i = 0; i < n; i++)
     Console.WriteLine($"Fibonacci number {i + 1}: {a}");
     //test
     //test2
+    // test for git new branch merge
+    //test stashes
 }
 Console.WriteLine();
